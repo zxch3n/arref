@@ -1,5 +1,11 @@
-Getting mutable references to two elements from the same array is hard. This
-tiny lib provides method to make it easier.
+<div align="center">
+  <h1><code>Arref</code></h2>
+  <h3><a href="https://docs.rs/arref">Documentation</a></h3>
+  <p></p>
+</div>
+
+Getting mutable references to two elements from the same array safely is
+cumbersome in Rust. This tiny lib provides method to make it easier.
 
 [array_mut_ref!] checks whether the user borrows the same element at runtime.
 

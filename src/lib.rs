@@ -1,5 +1,5 @@
-//! Getting mutable references to two elements from the same array is hard.
-//! This tiny lib provides method to make it easier.
+//! Getting mutable references to two elements from the same array safely is
+//! cumbersome in Rust. This tiny lib provides method to make it easier.
 //!
 //! [array_mut_ref!] checks whether the user borrows the same element at runtime.
 //!
